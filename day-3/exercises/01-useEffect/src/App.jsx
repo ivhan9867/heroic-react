@@ -1,9 +1,6 @@
 import React from "react";
 import "./index.css";
 
-// =========================
-// MOCK HERO DATA
-// =========================
 const mockHeroes = [
   { id: 1, name: "Iron Man", team: "Avengers", power: "Technology" },
   { id: 2, name: "Spider-Man", team: "Avengers", power: "Spider abilities" },
@@ -11,9 +8,6 @@ const mockHeroes = [
   { id: 4, name: "Batman", team: "Justice League", power: "Intellect" },
 ];
 
-// =========================
-// MAIN APP
-// =========================
 export default function App() {
   const [showTimer, setShowTimer] = React.useState(true);
 
@@ -46,9 +40,6 @@ export default function App() {
   );
 }
 
-// =========================
-// 1. Document Title Updater
-// =========================
 function TitleUpdater() {
   const [count, setCount] = React.useState(0);
 
@@ -70,9 +61,6 @@ function TitleUpdater() {
   );
 }
 
-// =========================
-// 2. Timer with Cleanup
-// =========================
 function Timer() {
   const [seconds, setSeconds] = React.useState(0);
   const [isRunning, setIsRunning] = React.useState(true);
@@ -108,9 +96,6 @@ function Timer() {
   );
 }
 
-// =========================
-// 3. Hero Loader
-// =========================
 function HeroLoader() {
   const [heroes, setHeroes] = React.useState([]);
   const [loading, setLoading] = React.useState(true);
@@ -182,9 +167,6 @@ function HeroLoader() {
   );
 }
 
-// =========================
-// 4. Clock — realtime
-// =========================
 function Clock() {
   const [time, setTime] = React.useState(new Date());
 
