@@ -1,6 +1,6 @@
-# PTI-Dsilit
+# PTI-Dsolid Base Data
 
-A three day workshop to learn the fundamentals of React by building a simple Heroic application.
+Merupakan Data Anggota Dari PTI-D25
 
 ## Workshop Overview
 
