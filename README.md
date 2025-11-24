@@ -1,4 +1,4 @@
-# Heroic React
+# PTI-Dsilit
 
 A three day workshop to learn the fundamentals of React by building a simple Heroic application.
 
