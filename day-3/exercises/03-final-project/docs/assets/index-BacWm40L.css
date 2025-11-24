@@ -1,0 +1,1 @@
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;background:linear-gradient(135deg,#667eea,#764ba2);min-height:100vh;color:#fff}@keyframes spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}@keyframes slideIn{0%{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
